@@ -27,16 +27,16 @@
         	<table class="table table-bordered">
 				<thead class="thead-light">
 					<tr>
-						<th width="5%">#</th>
+						<!-- <th width="5%">#</th> -->
 						<th>Numele evenimentului</th>
 						<th width="10%"><center>Statusul evenimentului</center></th>
-						<th width="14%"><center>Acțiunea</center></th>
+						<th width="20%"><center>Acțiunea</center></th>
 					</tr>
 				</thead>
 				<tbody>
 					@forelse ($todos as $todo)
 					    <tr>
-							<th>{{ $todo->id }}</th>
+							<!-- <th>{{ $todo->id }}</th> -->
 							<td>{{ $todo->title }}</td>
 							<td><center>{{ $todo->status }}</center></td>
 							<td>
